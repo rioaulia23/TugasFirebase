@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Sign In"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    <EditText
+            android:hint="Input Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:id="@+id/et_email"
+            android:layout_margin="20dp"
+    />
+    <EditText
+            android:hint="Input Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/et_pass"
+            android:layout_margin="20dp"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_login"
+            android:text="Login"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_regis1"
+            android:text="Register"/>
+    <TextView
+            android:layout_marginTop="10dp"
+            android:text="OR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <com.google.android.gms.common.SignInButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_button_google"
+            android:layout_margin="20dp">
+
+    </com.google.android.gms.common.SignInButton>
+
+</LinearLayout>

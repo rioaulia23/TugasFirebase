@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="CardList"
+          android:id="@+id/card"
+          android:icon="@android:drawable/ic_menu_agenda"/>
+    <item android:title="Profile"
+          android:id="@+id/profile"
+          android:icon="@android:drawable/ic_menu_myplaces"/>
+    <item android:title="Update"
+          android:id="@+id/update"
+          android:icon="@android:drawable/stat_sys_upload"/>
+
+</menu>
